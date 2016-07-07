@@ -22,17 +22,26 @@
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
+                    <variation key="widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="8" y="56" width="384" height="21"/>
+                    </variation>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="???" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVR-ae-C6M">
                     <rect key="frame" x="8" y="360" width="584" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
+                    <variation key="widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="8" y="360" width="384" height="21"/>
+                    </variation>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Z0-ye-GM9">
                     <rect key="frame" x="8" y="380" width="579" height="30"/>
                     <color key="backgroundColor" red="0.54954330306336896" green="0.77343828747552101" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Show Answer"/>
+                    <variation key="widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="8" y="380" width="384" height="30"/>
+                    </variation>
                     <connections>
                         <action selector="showAnswer:" destination="-1" eventType="touchUpInside" id="VXs-u0-tqE"/>
                     </connections>
@@ -41,12 +50,16 @@
                     <rect key="frame" x="8" y="77" width="579" height="30"/>
                     <color key="backgroundColor" red="0.54954330309999999" green="0.77343828749999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Show Question"/>
+                    <variation key="widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="8" y="77" width="384" height="30"/>
+                    </variation>
                     <connections>
                         <action selector="showQuestion:" destination="-1" eventType="touchUpInside" id="aUJ-hA-5DC"/>
                     </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="451" y="439"/>
         </view>
     </objects>
 </document>
