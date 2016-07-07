@@ -13,6 +13,8 @@
 		6D16A9491D2ED40D00C841E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D16A9471D2ED40D00C841E0 /* Main.storyboard */; };
 		6D16A94B1D2ED40D00C841E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D16A94A1D2ED40D00C841E0 /* Assets.xcassets */; };
 		6D16A94E1D2ED40D00C841E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D16A94C1D2ED40D00C841E0 /* LaunchScreen.storyboard */; };
+		6D16A9581D2ED94E00C841E0 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D16A9561D2ED94E00C841E0 /* QuizViewController.m */; };
+		6D16A9591D2ED94E00C841E0 /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D16A9571D2ED94E00C841E0 /* QuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		6D16A94A1D2ED40D00C841E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D16A94D1D2ED40D00C841E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D16A94F1D2ED40D00C841E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D16A9551D2ED94E00C841E0 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		6D16A9561D2ED94E00C841E0 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		6D16A9571D2ED94E00C841E0 /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				6D16A9421D2ED40D00C841E0 /* AppDelegate.m */,
 				6D16A9441D2ED40D00C841E0 /* ViewController.h */,
 				6D16A9451D2ED40D00C841E0 /* ViewController.m */,
+				6D16A9551D2ED94E00C841E0 /* QuizViewController.h */,
+				6D16A9561D2ED94E00C841E0 /* QuizViewController.m */,
+				6D16A9571D2ED94E00C841E0 /* QuizViewController.xib */,
 				6D16A9471D2ED40D00C841E0 /* Main.storyboard */,
 				6D16A94A1D2ED40D00C841E0 /* Assets.xcassets */,
 				6D16A94C1D2ED40D00C841E0 /* LaunchScreen.storyboard */,
@@ -139,6 +147,7 @@
 				6D16A94E1D2ED40D00C841E0 /* LaunchScreen.storyboard in Resources */,
 				6D16A94B1D2ED40D00C841E0 /* Assets.xcassets in Resources */,
 				6D16A9491D2ED40D00C841E0 /* Main.storyboard in Resources */,
+				6D16A9591D2ED94E00C841E0 /* QuizViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +161,7 @@
 				6D16A9461D2ED40D00C841E0 /* ViewController.m in Sources */,
 				6D16A9431D2ED40D00C841E0 /* AppDelegate.m in Sources */,
 				6D16A9401D2ED40D00C841E0 /* main.m in Sources */,
+				6D16A9581D2ED94E00C841E0 /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
