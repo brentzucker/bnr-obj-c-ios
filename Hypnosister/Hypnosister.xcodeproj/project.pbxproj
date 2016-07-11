@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D16A95F1D33EB5700C841E0 /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D16A95E1D33EB5700C841E0 /* HypnosisView.m */; };
 		C74443DD1D2FD3CD008D50DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C74443DC1D2FD3CD008D50DF /* main.m */; };
 		C74443E01D2FD3CD008D50DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C74443DF1D2FD3CD008D50DF /* AppDelegate.m */; };
 		C74443E31D2FD3CD008D50DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74443E21D2FD3CD008D50DF /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D16A95D1D33EB5700C841E0 /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HypnosisView.h; path = ../HypnosisView.h; sourceTree = "<group>"; };
+		6D16A95E1D33EB5700C841E0 /* HypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HypnosisView.m; path = ../HypnosisView.m; sourceTree = "<group>"; };
 		C74443D81D2FD3CD008D50DF /* Hypnosister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypnosister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74443DC1D2FD3CD008D50DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C74443DE1D2FD3CD008D50DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +61,8 @@
 		C74443DA1D2FD3CD008D50DF /* Hypnosister */ = {
 			isa = PBXGroup;
 			children = (
+				6D16A95D1D33EB5700C841E0 /* HypnosisView.h */,
+				6D16A95E1D33EB5700C841E0 /* HypnosisView.m */,
 				C74443DE1D2FD3CD008D50DF /* AppDelegate.h */,
 				C74443DF1D2FD3CD008D50DF /* AppDelegate.m */,
 				C74443E11D2FD3CD008D50DF /* ViewController.h */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C74443E31D2FD3CD008D50DF /* ViewController.m in Sources */,
+				6D16A95F1D33EB5700C841E0 /* HypnosisView.m in Sources */,
 				C74443E01D2FD3CD008D50DF /* AppDelegate.m in Sources */,
 				C74443DD1D2FD3CD008D50DF /* main.m in Sources */,
 			);
@@ -300,6 +306,7 @@
 				C74443F11D2FD3CD008D50DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
