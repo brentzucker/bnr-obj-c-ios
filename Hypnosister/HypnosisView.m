@@ -1,5 +1,5 @@
 //
-//  BNRHypnosisView.m
+//  HypnosisView.m
 //  Hypnosister
 //
 //  Created by John Gallagher on 1/6/14.
@@ -14,7 +14,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // All BNRHypnosisViews start with a clear background color
+        // All HypnosisViews start with a clear background color
         self.backgroundColor = [UIColor clearColor];
     }
     return self;
@@ -54,6 +54,10 @@
 
     // Draw the line!
     [path stroke];
+    
+    UIImage *logoImage = [UIImage imageNamed:@"logo.png"];
+
+    [logoImage drawInRect:bounds];
 }
 
 @end

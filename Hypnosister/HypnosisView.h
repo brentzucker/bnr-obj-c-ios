@@ -1,5 +1,5 @@
 //
-//  BNRHypnosisView.h
+//  HypnosisView.h
 //  Hypnosister
 //
 //  Created by John Gallagher on 1/6/14.
