@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 John Gallagher. All rights reserved.
 //
 
-#import "BNRHypnosisView.h"
+#import "HypnosisView.h"
 
-@implementation BNRHypnosisView
+@implementation HypnosisView
 
 - (id)initWithFrame:(CGRect)frame
 {

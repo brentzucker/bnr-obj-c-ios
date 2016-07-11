@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BNRHypnosisView : UIView
+@interface HypnosisView : UIView
 
 @end
