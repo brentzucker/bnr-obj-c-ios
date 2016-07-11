@@ -27,7 +27,7 @@
     
     firstView.backgroundColor = [UIColor redColor];
     
-    [self.window addSubview:firstView];
+    [self.window.rootViewController.view addSubview:firstView];
     
     self.window.rootViewController = viewController;
     self.window.backgroundColor = [UIColor whiteColor];
