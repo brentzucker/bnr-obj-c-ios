@@ -14,6 +14,7 @@
 		6D16A9791D34377D00C841E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D16A9781D34377D00C841E0 /* Assets.xcassets */; };
 		6D16A97C1D34377D00C841E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D16A97A1D34377D00C841E0 /* LaunchScreen.storyboard */; };
 		6D16A9851D3437BB00C841E0 /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D16A9841D3437BB00C841E0 /* HypnosisView.m */; };
+		6D16A9881D34387400C841E0 /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D16A9871D34387400C841E0 /* HypnosisViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		6D16A97D1D34377D00C841E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D16A9831D3437BB00C841E0 /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisView.h; sourceTree = "<group>"; };
 		6D16A9841D3437BB00C841E0 /* HypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisView.m; sourceTree = "<group>"; };
+		6D16A9861D34387400C841E0 /* HypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisViewController.h; sourceTree = "<group>"; };
+		6D16A9871D34387400C841E0 /* HypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,8 @@
 		6D16A9601D34377D00C841E0 = {
 			isa = PBXGroup;
 			children = (
+				6D16A9861D34387400C841E0 /* HypnosisViewController.h */,
+				6D16A9871D34387400C841E0 /* HypnosisViewController.m */,
 				6D16A96B1D34377D00C841E0 /* HypnoNerd */,
 				6D16A96A1D34377D00C841E0 /* Products */,
 			);
@@ -158,6 +163,7 @@
 				6D16A9851D3437BB00C841E0 /* HypnosisView.m in Sources */,
 				6D16A9711D34377D00C841E0 /* AppDelegate.m in Sources */,
 				6D16A96E1D34377D00C841E0 /* main.m in Sources */,
+				6D16A9881D34387400C841E0 /* HypnosisViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
