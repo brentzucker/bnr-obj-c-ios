@@ -21,13 +21,27 @@
     UIViewController *viewController = [[UIViewController alloc]init];
     [self.window setRootViewController:viewController];
     
-    CGRect firstFrame = self.window.bounds;
+    // CGRects for frames
+    CGRect screenRect = self.window.bounds;
+    CGRect bigRect = screenRect;
+    bigRect.size.width *= 2.0;
     
-    HypnosisView *firstView = [[HypnosisView alloc] initWithFrame:firstFrame];
+    // screen sized scroll view
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:screenRect];
+    scrollView.pagingEnabled = YES;
+    [self.window.rootViewController.view addSubview:scrollView];
     
-    firstView.backgroundColor = [UIColor redColor];
+    // screen sized hypnosis view added to scroll view
+    HypnosisView *hypnosisView = [[HypnosisView alloc] initWithFrame:screenRect];
+    [scrollView addSubview:hypnosisView];
     
-    [self.window.rootViewController.view addSubview:firstView];
+    // add a second screen-sized hypnosis view just off screen to the right
+    screenRect.origin.x += screenRect.size.width;
+    HypnosisView *anotherview =  [[HypnosisView alloc] initWithFrame:screenRect];
+    [scrollView addSubview:anotherview];
+    
+    // tell scroll view how big content area is
+    scrollView.contentSize = bigRect.size;
     
     self.window.rootViewController = viewController;
     self.window.backgroundColor = [UIColor whiteColor];
