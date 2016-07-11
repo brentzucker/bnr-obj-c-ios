@@ -8,7 +8,13 @@
 
 #import "HypnosisView.h"
 
-@implementation BNRHypnosisView
+@interface HypnosisView()
+
+@property (strong, nonatomic) UIColor *circleColor;
+
+@end
+
+@implementation HypnosisView
 
 - (id)initWithFrame:(CGRect)frame
 {

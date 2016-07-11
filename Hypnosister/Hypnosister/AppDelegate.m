@@ -22,7 +22,6 @@
     [self.window setRootViewController:viewController];
     
     CGRect firstFrame = self.window.bounds;
-    UIImage *logoImage = [UIImage imageNamed:@"logo.png"];
     
     HypnosisView *firstView = [[HypnosisView alloc] initWithFrame:firstFrame];
     
